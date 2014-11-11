@@ -17,13 +17,14 @@
 
 @implementation Gobelet
 -(Gobelet*) init {
+    self = [super init];
     de1 = [[De alloc]init];
     de2 = [[De alloc]init];
     return self;
 }
 
 -(void) lancer {
-    
+
     // TODO.
 }
 

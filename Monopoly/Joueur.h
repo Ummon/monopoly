@@ -10,9 +10,12 @@
 
 @interface Joueur : NSObject
 
-@property (strong, nonatomic) NSString* nom; // Setter + getter + variable instance.
+@property (strong, nonatomic, readonly) NSString* nom; // Variable instance + setter + getter.
+@property (strong, nonatimic, readonly) NSString* pion;
+@property (strong, nonatimic, readonly) Case* position;
 
--(void)sayHello; // Méthode d'instance. ('+' correspond à une méthode de classe(static en java))
--(Joueur*)initWithNom:(NSString*)nom; // Constructeur avec un paramètre.
+-(Joueur*)initWithNomAndPionAndPosition :(NSString*)nom :(NSString*)pion :(Case*)position;
+
+-(void)aTonTour :(Gobelet*)gob;
 
 @end

@@ -8,6 +8,31 @@
 
 #import "Monopoly.h"
 
-@implementation Monopoly
+@interface Monopoly () {
+    NSarray* _joueurs;
+    Plateau* _plateau;
+}
+@end
 
+@implementation Monopoly
+-(Monopoly*)init :(int)nbJoueur {
+    self = [super init];
+
+    if (nbJoueur < 2 || nbJoueur > 8)
+        return 0; // exceptions?
+
+    _plateau = [[Plateau alloc]init];
+
+    Case* premiereCase = _plateau.getCaseDepart();
+
+    id joueurs[nbJoueur];
+    for (int i = 0; i < nbJoueur; i++)
+        joueurs[i] = [[Joueur alloc]initWithNomAndCase:@"Joueur" casePlateau:premiereCase];
+    _joueurs = [NSArray arrayWithObjects:joueurs count:nbJoueur];
+
+    return self;
+}
+-(void)jouer {
+    // TODO.
+}
 @end

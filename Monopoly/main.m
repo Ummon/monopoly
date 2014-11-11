@@ -11,18 +11,16 @@
 
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool {
-        
-        
+
         // Exemples:
         //Joueur* monJoueur = [[Joueur alloc]init];
         // [monJoueur setNom:@"Damien"];
         // monJoueur.nom = @"Damien"; // Strictement équivalent à la ligne précédente.
-        
+
         // NSLog(@"Nom (1): %@", [monJoueur nom]); // Appel du getter.
         // NSLog(@"Nom (2): %@", monJoueur.nom); // Identique à la ligne précédente.
-        
+
         Joueur* monJoueur = [[Joueur alloc]initWithNom:@"Damien"];
         [monJoueur sayHello];
     }

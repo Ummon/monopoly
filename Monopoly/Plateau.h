@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface Plateau : NSObject
-
+-(Plateau*)init;
+-(Case*)getCaseDepart;
 @end

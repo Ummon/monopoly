@@ -16,8 +16,8 @@
 @implementation De
 
 -(void) lancer {
-    
-    
+
+
 }
 
 @end

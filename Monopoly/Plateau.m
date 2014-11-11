@@ -8,6 +8,24 @@
 
 #import "Plateau.h"
 
-@implementation Plateau
+@interface Plateau () {
+    NSArray* _cases;
+}
+@end
 
+@implementation Plateau
+-(Plateau*)init {
+    // TODO: initialiser le tableau de cases.
+
+    createCases(0);
+}
+
+-(Case*)createCases :(int)c {
+    _cases[c] = [[alloc Case]init :@"nom" :(c == _cases.length() ? _cases[0] : createCases(c+1))];
+    return _cases[c];
+}
+
+-(Case*)getCaseDepart; {
+    return cases.firstObject();
+}
 @end

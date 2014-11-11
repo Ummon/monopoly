@@ -10,4 +10,9 @@
 
 @interface Case : NSObject
 
+@property (strong, nonatomic, readonly) NSString* nom;
+@property (strong, nonatomic, readonly) Case* suivante;
+
+-(Case*)initWithNomAndSuivante :(NSString*)nom, :(Case*)suivante;
+
 @end
