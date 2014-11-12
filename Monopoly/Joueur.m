@@ -17,7 +17,7 @@
     self = [super init];
     _nom = nom;
     _pion = pion;
-    _position = position
+    _position = position;
     return self;
 }
 

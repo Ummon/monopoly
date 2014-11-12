@@ -7,12 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Case.h"
+#import "Gobelet.h"
 
 @interface Joueur : NSObject
 
 @property (strong, nonatomic, readonly) NSString* nom; // Variable instance + setter + getter.
-@property (strong, nonatimic, readonly) NSString* pion;
-@property (strong, nonatimic, readonly) Case* position;
+@property (strong, nonatomic, readonly) NSString* pion;
+@property (strong, nonatomic, readonly) Case* position;
 
 -(Joueur*)initWithNomAndPionAndPosition :(NSString*)nom :(NSString*)pion :(Case*)position;
 

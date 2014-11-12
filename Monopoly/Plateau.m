@@ -17,15 +17,16 @@
 -(Plateau*)init {
     // TODO: initialiser le tableau de cases.
 
-    createCases(0);
+    //[createCases 0];
+    return self;
 }
 
 -(Case*)createCases :(int)c {
-    _cases[c] = [[alloc Case]init :@"nom" :(c == _cases.length() ? _cases[0] : createCases(c+1))];
+    //_cases[c] = [[alloc Case]init :@"nom" :(c == _cases.length() ? _cases[0] : createCases(c+1))];
     return _cases[c];
 }
 
 -(Case*)getCaseDepart; {
-    return cases.firstObject();
+    return [_cases firstObject];
 }
 @end

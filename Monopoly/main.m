@@ -21,8 +21,8 @@ int main(int argc, const char * argv[])
         // NSLog(@"Nom (1): %@", [monJoueur nom]); // Appel du getter.
         // NSLog(@"Nom (2): %@", monJoueur.nom); // Identique à la ligne précédente.
 
-        Joueur* monJoueur = [[Joueur alloc]initWithNom:@"Damien"];
-        [monJoueur sayHello];
+        // Joueur* monJoueur = [[Joueur alloc]initWithNom:@"Damien"];
+        // [monJoueur sayHello];
     }
     return 0;
 }

@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+#import "Plateau.h"
+#import "Case.h"
+
 @interface Plateau : NSObject
 -(Plateau*)init;
 -(Case*)getCaseDepart;

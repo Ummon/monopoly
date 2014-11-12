@@ -9,7 +9,7 @@
 #import "Case.h"
 
 @implementation Case
--(Case*)initWithNomAndSuivante :(NSString*)nom, :(Case*)suivante {
+-(Case*)initWithNomAndSuivante :(NSString*)nom :(Case*)suivante {
     self = [super init];
     _nom = nom;
     _suivante = suivante;
