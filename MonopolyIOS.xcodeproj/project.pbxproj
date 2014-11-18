@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7253E60D1A1B7233003C385F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E60C1A1B7233003C385F /* main.m */; };
+		7253E6101A1B7233003C385F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E60F1A1B7233003C385F /* AppDelegate.m */; };
+		7253E6131A1B7233003C385F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6121A1B7233003C385F /* ViewController.m */; };
+		7253E6161A1B7233003C385F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7253E6141A1B7233003C385F /* Main.storyboard */; };
+		7253E6181A1B7233003C385F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7253E6171A1B7233003C385F /* Images.xcassets */; };
+		7253E61B1A1B7233003C385F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7253E6191A1B7233003C385F /* LaunchScreen.xib */; };
+		7253E6271A1B7233003C385F /* MonopolyIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6261A1B7233003C385F /* MonopolyIOSTests.m */; };
+		7253E6641A1B72A3003C385F /* Case.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6521A1B72A3003C385F /* Case.m */; };
+		7253E6651A1B72A3003C385F /* CaseDepart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6541A1B72A3003C385F /* CaseDepart.m */; };
+		7253E6661A1B72A3003C385F /* CaseImpot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6561A1B72A3003C385F /* CaseImpot.m */; };
+		7253E6671A1B72A3003C385F /* CaseTaxeDeLuxe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6581A1B72A3003C385F /* CaseTaxeDeLuxe.m */; };
+		7253E6681A1B72A3003C385F /* De.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E65A1A1B72A3003C385F /* De.m */; };
+		7253E6691A1B72A3003C385F /* Gobelet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E65C1A1B72A3003C385F /* Gobelet.m */; };
+		7253E66A1A1B72A3003C385F /* Joueur.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E65E1A1B72A3003C385F /* Joueur.m */; };
+		7253E66B1A1B72A3003C385F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E65F1A1B72A3003C385F /* main.m */; };
+		7253E66C1A1B72A3003C385F /* Monopoly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6611A1B72A3003C385F /* Monopoly.m */; };
+		7253E66D1A1B72A3003C385F /* Plateau.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6631A1B72A3003C385F /* Plateau.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7253E6211A1B7233003C385F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7253E5FF1A1B7233003C385F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7253E6061A1B7233003C385F;
+			remoteInfo = MonopolyIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7253E6071A1B7233003C385F /* MonopolyIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonopolyIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7253E60B1A1B7233003C385F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7253E60C1A1B7233003C385F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7253E60E1A1B7233003C385F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7253E60F1A1B7233003C385F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7253E6111A1B7233003C385F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7253E6121A1B7233003C385F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7253E6151A1B7233003C385F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7253E6171A1B7233003C385F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7253E61A1A1B7233003C385F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7253E6201A1B7233003C385F /* MonopolyIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonopolyIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7253E6251A1B7233003C385F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7253E6261A1B7233003C385F /* MonopolyIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MonopolyIOSTests.m; sourceTree = "<group>"; };
+		7253E6511A1B72A3003C385F /* Case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Case.h; sourceTree = "<group>"; };
+		7253E6521A1B72A3003C385F /* Case.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Case.m; sourceTree = "<group>"; };
+		7253E6531A1B72A3003C385F /* CaseDepart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseDepart.h; sourceTree = "<group>"; };
+		7253E6541A1B72A3003C385F /* CaseDepart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseDepart.m; sourceTree = "<group>"; };
+		7253E6551A1B72A3003C385F /* CaseImpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseImpot.h; sourceTree = "<group>"; };
+		7253E6561A1B72A3003C385F /* CaseImpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseImpot.m; sourceTree = "<group>"; };
+		7253E6571A1B72A3003C385F /* CaseTaxeDeLuxe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTaxeDeLuxe.h; sourceTree = "<group>"; };
+		7253E6581A1B72A3003C385F /* CaseTaxeDeLuxe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTaxeDeLuxe.m; sourceTree = "<group>"; };
+		7253E6591A1B72A3003C385F /* De.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = De.h; sourceTree = "<group>"; };
+		7253E65A1A1B72A3003C385F /* De.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = De.m; sourceTree = "<group>"; };
+		7253E65B1A1B72A3003C385F /* Gobelet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gobelet.h; sourceTree = "<group>"; };
+		7253E65C1A1B72A3003C385F /* Gobelet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gobelet.m; sourceTree = "<group>"; };
+		7253E65D1A1B72A3003C385F /* Joueur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joueur.h; sourceTree = "<group>"; };
+		7253E65E1A1B72A3003C385F /* Joueur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joueur.m; sourceTree = "<group>"; };
+		7253E65F1A1B72A3003C385F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7253E6601A1B72A3003C385F /* Monopoly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monopoly.h; sourceTree = "<group>"; };
+		7253E6611A1B72A3003C385F /* Monopoly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monopoly.m; sourceTree = "<group>"; };
+		7253E6621A1B72A3003C385F /* Plateau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plateau.h; sourceTree = "<group>"; };
+		7253E6631A1B72A3003C385F /* Plateau.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plateau.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7253E6041A1B7233003C385F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7253E61D1A1B7233003C385F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7253E5FE1A1B7233003C385F = {
+			isa = PBXGroup;
+			children = (
+				7253E66E1A1B72C7003C385F /* Monopoly */,
+				7253E6091A1B7233003C385F /* MonopolyIOS */,
+				7253E6231A1B7233003C385F /* MonopolyIOSTests */,
+				7253E6081A1B7233003C385F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7253E6081A1B7233003C385F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7253E6071A1B7233003C385F /* MonopolyIOS.app */,
+				7253E6201A1B7233003C385F /* MonopolyIOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7253E6091A1B7233003C385F /* MonopolyIOS */ = {
+			isa = PBXGroup;
+			children = (
+				7253E60E1A1B7233003C385F /* AppDelegate.h */,
+				7253E60F1A1B7233003C385F /* AppDelegate.m */,
+				7253E6111A1B7233003C385F /* ViewController.h */,
+				7253E6121A1B7233003C385F /* ViewController.m */,
+				7253E6141A1B7233003C385F /* Main.storyboard */,
+				7253E6171A1B7233003C385F /* Images.xcassets */,
+				7253E6191A1B7233003C385F /* LaunchScreen.xib */,
+				7253E60A1A1B7233003C385F /* Supporting Files */,
+			);
+			path = MonopolyIOS;
+			sourceTree = "<group>";
+		};
+		7253E60A1A1B7233003C385F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7253E60B1A1B7233003C385F /* Info.plist */,
+				7253E60C1A1B7233003C385F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7253E6231A1B7233003C385F /* MonopolyIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7253E6261A1B7233003C385F /* MonopolyIOSTests.m */,
+				7253E6241A1B7233003C385F /* Supporting Files */,
+			);
+			path = MonopolyIOSTests;
+			sourceTree = "<group>";
+		};
+		7253E6241A1B7233003C385F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7253E6251A1B7233003C385F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7253E66E1A1B72C7003C385F /* Monopoly */ = {
+			isa = PBXGroup;
+			children = (
+				7253E6511A1B72A3003C385F /* Case.h */,
+				7253E6521A1B72A3003C385F /* Case.m */,
+				7253E6531A1B72A3003C385F /* CaseDepart.h */,
+				7253E6541A1B72A3003C385F /* CaseDepart.m */,
+				7253E6551A1B72A3003C385F /* CaseImpot.h */,
+				7253E6561A1B72A3003C385F /* CaseImpot.m */,
+				7253E6571A1B72A3003C385F /* CaseTaxeDeLuxe.h */,
+				7253E6581A1B72A3003C385F /* CaseTaxeDeLuxe.m */,
+				7253E6591A1B72A3003C385F /* De.h */,
+				7253E65A1A1B72A3003C385F /* De.m */,
+				7253E65B1A1B72A3003C385F /* Gobelet.h */,
+				7253E65C1A1B72A3003C385F /* Gobelet.m */,
+				7253E65D1A1B72A3003C385F /* Joueur.h */,
+				7253E65E1A1B72A3003C385F /* Joueur.m */,
+				7253E65F1A1B72A3003C385F /* main.m */,
+				7253E6601A1B72A3003C385F /* Monopoly.h */,
+				7253E6611A1B72A3003C385F /* Monopoly.m */,
+				7253E6621A1B72A3003C385F /* Plateau.h */,
+				7253E6631A1B72A3003C385F /* Plateau.m */,
+			);
+			name = Monopoly;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7253E6061A1B7233003C385F /* MonopolyIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7253E62A1A1B7233003C385F /* Build configuration list for PBXNativeTarget "MonopolyIOS" */;
+			buildPhases = (
+				7253E6031A1B7233003C385F /* Sources */,
+				7253E6041A1B7233003C385F /* Frameworks */,
+				7253E6051A1B7233003C385F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonopolyIOS;
+			productName = MonopolyIOS;
+			productReference = 7253E6071A1B7233003C385F /* MonopolyIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7253E61F1A1B7233003C385F /* MonopolyIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7253E62D1A1B7233003C385F /* Build configuration list for PBXNativeTarget "MonopolyIOSTests" */;
+			buildPhases = (
+				7253E61C1A1B7233003C385F /* Sources */,
+				7253E61D1A1B7233003C385F /* Frameworks */,
+				7253E61E1A1B7233003C385F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7253E6221A1B7233003C385F /* PBXTargetDependency */,
+			);
+			name = MonopolyIOSTests;
+			productName = MonopolyIOSTests;
+			productReference = 7253E6201A1B7233003C385F /* MonopolyIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7253E5FF1A1B7233003C385F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "hes-so";
+				TargetAttributes = {
+					7253E6061A1B7233003C385F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					7253E61F1A1B7233003C385F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 7253E6061A1B7233003C385F;
+					};
+				};
+			};
+			buildConfigurationList = 7253E6021A1B7233003C385F /* Build configuration list for PBXProject "MonopolyIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7253E5FE1A1B7233003C385F;
+			productRefGroup = 7253E6081A1B7233003C385F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7253E6061A1B7233003C385F /* MonopolyIOS */,
+				7253E61F1A1B7233003C385F /* MonopolyIOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7253E6051A1B7233003C385F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7253E6161A1B7233003C385F /* Main.storyboard in Resources */,
+				7253E61B1A1B7233003C385F /* LaunchScreen.xib in Resources */,
+				7253E6181A1B7233003C385F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7253E61E1A1B7233003C385F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7253E6031A1B7233003C385F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7253E6681A1B72A3003C385F /* De.m in Sources */,
+				7253E6691A1B72A3003C385F /* Gobelet.m in Sources */,
+				7253E6131A1B7233003C385F /* ViewController.m in Sources */,
+				7253E66D1A1B72A3003C385F /* Plateau.m in Sources */,
+				7253E6661A1B72A3003C385F /* CaseImpot.m in Sources */,
+				7253E6641A1B72A3003C385F /* Case.m in Sources */,
+				7253E66A1A1B72A3003C385F /* Joueur.m in Sources */,
+				7253E6101A1B7233003C385F /* AppDelegate.m in Sources */,
+				7253E6671A1B72A3003C385F /* CaseTaxeDeLuxe.m in Sources */,
+				7253E6651A1B72A3003C385F /* CaseDepart.m in Sources */,
+				7253E66B1A1B72A3003C385F /* main.m in Sources */,
+				7253E66C1A1B72A3003C385F /* Monopoly.m in Sources */,
+				7253E60D1A1B7233003C385F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7253E61C1A1B7233003C385F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7253E6271A1B7233003C385F /* MonopolyIOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7253E6221A1B7233003C385F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7253E6061A1B7233003C385F /* MonopolyIOS */;
+			targetProxy = 7253E6211A1B7233003C385F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7253E6141A1B7233003C385F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7253E6151A1B7233003C385F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7253E6191A1B7233003C385F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7253E61A1A1B7233003C385F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7253E6281A1B7233003C385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7253E6291A1B7233003C385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7253E62B1A1B7233003C385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MonopolyIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7253E62C1A1B7233003C385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MonopolyIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7253E62E1A1B7233003C385F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonopolyIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonopolyIOS.app/MonopolyIOS";
+			};
+			name = Debug;
+		};
+		7253E62F1A1B7233003C385F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MonopolyIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonopolyIOS.app/MonopolyIOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7253E6021A1B7233003C385F /* Build configuration list for PBXProject "MonopolyIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7253E6281A1B7233003C385F /* Debug */,
+				7253E6291A1B7233003C385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7253E62A1A1B7233003C385F /* Build configuration list for PBXNativeTarget "MonopolyIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7253E62B1A1B7233003C385F /* Debug */,
+				7253E62C1A1B7233003C385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7253E62D1A1B7233003C385F /* Build configuration list for PBXNativeTarget "MonopolyIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7253E62E1A1B7233003C385F /* Debug */,
+				7253E62F1A1B7233003C385F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7253E5FF1A1B7233003C385F /* Project object */;
+}

@@ -5,16 +5,16 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>9267B4F3-1F20-419E-A8D3-B055FF0E3BCE</string>
+	<string>BC7B9D41-8B54-4558-AC99-70DE29606A66</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Monopoly</string>
+	<string>MonopolyIOS</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>DEDFDED88521E4A6C72505124C3AF6FCF1303215</key>
 		<string>ssh://github.com/Ummon/monopoly.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Monopoly.xcodeproj</string>
+	<string>MonopolyIOS.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>DEDFDED88521E4A6C72505124C3AF6FCF1303215</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>DEDFDED88521E4A6C72505124C3AF6FCF1303215</string>
 			<key>IDESourceControlWCCName</key>
-			<string>monopoly</string>
+			<string>MonopolyIOS</string>
 		</dict>
 	</array>
 </dict>
