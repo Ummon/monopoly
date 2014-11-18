@@ -21,7 +21,6 @@
 		7253E6681A1B72A3003C385F /* De.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E65A1A1B72A3003C385F /* De.m */; };
 		7253E6691A1B72A3003C385F /* Gobelet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E65C1A1B72A3003C385F /* Gobelet.m */; };
 		7253E66A1A1B72A3003C385F /* Joueur.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E65E1A1B72A3003C385F /* Joueur.m */; };
-		7253E66B1A1B72A3003C385F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E65F1A1B72A3003C385F /* main.m */; };
 		7253E66C1A1B72A3003C385F /* Monopoly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6611A1B72A3003C385F /* Monopoly.m */; };
 		7253E66D1A1B72A3003C385F /* Plateau.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6631A1B72A3003C385F /* Plateau.m */; };
 /* End PBXBuildFile section */
@@ -64,7 +63,6 @@
 		7253E65C1A1B72A3003C385F /* Gobelet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gobelet.m; sourceTree = "<group>"; };
 		7253E65D1A1B72A3003C385F /* Joueur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Joueur.h; sourceTree = "<group>"; };
 		7253E65E1A1B72A3003C385F /* Joueur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Joueur.m; sourceTree = "<group>"; };
-		7253E65F1A1B72A3003C385F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7253E6601A1B72A3003C385F /* Monopoly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Monopoly.h; sourceTree = "<group>"; };
 		7253E6611A1B72A3003C385F /* Monopoly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monopoly.m; sourceTree = "<group>"; };
 		7253E6621A1B72A3003C385F /* Plateau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plateau.h; sourceTree = "<group>"; };
@@ -166,7 +164,6 @@
 				7253E65C1A1B72A3003C385F /* Gobelet.m */,
 				7253E65D1A1B72A3003C385F /* Joueur.h */,
 				7253E65E1A1B72A3003C385F /* Joueur.m */,
-				7253E65F1A1B72A3003C385F /* main.m */,
 				7253E6601A1B72A3003C385F /* Monopoly.h */,
 				7253E6611A1B72A3003C385F /* Monopoly.m */,
 				7253E6621A1B72A3003C385F /* Plateau.h */,
@@ -285,7 +282,6 @@
 				7253E6101A1B7233003C385F /* AppDelegate.m in Sources */,
 				7253E6671A1B72A3003C385F /* CaseTaxeDeLuxe.m in Sources */,
 				7253E6651A1B72A3003C385F /* CaseDepart.m in Sources */,
-				7253E66B1A1B72A3003C385F /* main.m in Sources */,
 				7253E66C1A1B72A3003C385F /* Monopoly.m in Sources */,
 				7253E60D1A1B7233003C385F /* main.m in Sources */,
 			);
@@ -478,6 +474,7 @@
 				7253E62C1A1B7233003C385F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7253E62D1A1B7233003C385F /* Build configuration list for PBXNativeTarget "MonopolyIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +483,7 @@
 				7253E62F1A1B7233003C385F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

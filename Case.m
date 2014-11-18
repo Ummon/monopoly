@@ -10,7 +10,7 @@
 
 @implementation Case
 
--(Case*)initWithNomAndSuivante :(NSString*)nom
+-(Case*)initWithNom :(NSString*)nom
 {
     if (self = [super init])
     {

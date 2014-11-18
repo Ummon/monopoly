@@ -11,10 +11,7 @@
 @implementation De
 
 -(int) lancer {
-    struct timeval timestruct;
-    gettimeofday(&timestruct, NULL);
-    srandom(timestruct.tv_usec);
-    return (int)((random() % 6) + 1);
+    return arc4random() % 5 + 1;
 }
 
 @end
