@@ -48,7 +48,6 @@
 }
 
 -(NSArray*) classement {
-    //[_joueurs sortUsingSelector:@selector(compare:)];
-    return _joueurs;
+    return [_joueurs sortedArrayUsingSelector:@selector(compare:)];
 }
 @end
