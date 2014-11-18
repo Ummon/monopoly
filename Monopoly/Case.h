@@ -7,12 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+@class Joueur;
 
 @interface Case : NSObject
 
 @property (strong, nonatomic, readonly) NSString* nom;
-@property (strong, nonatomic, readonly) Case* suivante;
+@property (weak, nonatomic) Case* suivante;
 
--(Case*)initWithNomAndSuivante :(NSString*)nom :(Case*)suivante;
+-(Case*)initWithNom :(NSString*)nom;
+-(void) passerSur:(Joueur*) j;
+-(void) sArreterSur:(Joueur*) j;
 
 @end

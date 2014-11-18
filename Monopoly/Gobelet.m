@@ -10,25 +10,22 @@
 #import "De.h"
 
 @interface Gobelet () {
-    De* de1;
-    De* de2;
+    De* _de1;
+    De* _de2;
 }
 @end
 
 @implementation Gobelet
 -(Gobelet*) init {
-    self = [super init];
-    de1 = [[De alloc]init];
-    de2 = [[De alloc]init];
+    if (self = [super init])
+    {
+        _de1 = [[De alloc]init];
+        _de2 = [[De alloc]init];
+    }
     return self;
 }
 
--(void) lancer {
-
-    // TODO.
-}
-
--(int) getValeurFace {
-    return 0; // TODO.
+-(int) lancerLesDes {
+    return [_de1 lancer] + [_de2 lancer];
 }
 @end

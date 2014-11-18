@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Monopoly : NSObject
--(Monopoly*)init :(int)nbJoueur;
+-(Monopoly*)initWithNbJoueur :(int)nbJoueur :(int)tour;
 -(void)jouer;
+-(NSArray*) classement;
 @end

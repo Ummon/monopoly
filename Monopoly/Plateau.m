@@ -7,23 +7,58 @@
 //
 
 #import "Plateau.h"
+#import "Case.h"
+#import "CaseTaxeDeLuxe.h"
+#import "CaseImpot.h"
+#import "CaseDepart.h"
 
 @interface Plateau () {
-    NSArray* _cases;
+    NSMutableArray* _cases;
 }
 @end
 
 @implementation Plateau
 -(Plateau*)init {
-    // TODO: initialiser le tableau de cases.
-
-    //[createCases 0];
-    return self;
-}
-
--(Case*)createCases :(int)c {
-    //_cases[c] = [[alloc Case]init :@"nom" :(c == _cases.length() ? _cases[0] : createCases(c+1))];
-    return _cases[c];
+    if (self=[super init])
+    {
+        Case* c;
+        _cases = [NSMutableArray array];
+        for (int i=0;i<40;i++)
+        {
+            switch (i) {
+                case 0:
+                    c = [[CaseDepart alloc] init];
+                    break;
+                case 37:
+                    c = [[CaseTaxeDeLuxe alloc] init];
+                    break;
+                case 39:
+                    c = [[CaseImpot alloc] init];
+                    break;
+                default:
+                    c = [[Case alloc] initWithNom:[NSString stringWithFormat:@"Case %d",i]];
+                    break;
+            }
+            [_cases addObject:c];
+        }
+        
+        Case* caseCourante;
+        Case* caseSuivante;
+        
+        for (int i = 0; i < 39; i++)
+        {
+            caseCourante = [_cases objectAtIndex:i];
+            caseSuivante = [_cases objectAtIndex:i + 1];
+            caseCourante.suivante = caseSuivante;
+        }	
+        
+        caseCourante = [_cases objectAtIndex:39];
+        caseSuivante = [_cases objectAtIndex:0];
+        
+        // fait pointer la dernière case sur la première
+        caseCourante.suivante = caseSuivante;
+    }
+    return(self);
 }
 
 -(Case*)getCaseDepart; {

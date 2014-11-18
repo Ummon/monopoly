@@ -12,7 +12,6 @@
 
 -(Gobelet*) init;
 
--(void) lancer;
--(int) getValeurFace;
+-(int) lancerLesDes;
 
 @end

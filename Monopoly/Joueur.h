@@ -12,12 +12,15 @@
 
 @interface Joueur : NSObject
 
-@property (strong, nonatomic, readonly) NSString* nom; // Variable instance + setter + getter.
-@property (strong, nonatomic, readonly) NSString* pion;
-@property (strong, nonatomic, readonly) Case* position;
+@property (nonatomic, readonly) NSString* nom; // Variable instance + setter + getter.
+@property (nonatomic, strong, readonly) NSString* pion;
+@property (nonatomic, strong) Case* position;
+@property (nonatomic, assign) int solde;
 
 -(Joueur*)initWithNomAndPionAndPosition :(NSString*)nom :(NSString*)pion :(Case*)position;
 
--(void)aTonTour :(Gobelet*)gob;
+-(void)aTonTour : (Gobelet*)gob;
+-(void)paye:(int) loyer;
+-(void)encaisse:(int) revenue;
 
 @end

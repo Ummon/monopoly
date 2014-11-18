@@ -10,6 +10,6 @@
 
 @interface De : NSObject
 
--(void)lancer;
+-(int)lancer;
 
 @end

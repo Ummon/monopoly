@@ -16,6 +16,9 @@
 		3E4CACB21A1230D30019FBD4 /* Gobelet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CACB11A1230D30019FBD4 /* Gobelet.m */; };
 		3E4CACB51A1230F90019FBD4 /* Monopoly.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CACB41A1230F90019FBD4 /* Monopoly.m */; };
 		3E4CACB81A1231080019FBD4 /* Plateau.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E4CACB71A1231080019FBD4 /* Plateau.m */; };
+		7253E5C91A1B5752003C385F /* CaseDepart.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E5C41A1B5752003C385F /* CaseDepart.m */; };
+		7253E5CA1A1B5752003C385F /* CaseImpot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E5C61A1B5752003C385F /* CaseImpot.m */; };
+		7253E5CB1A1B5752003C385F /* CaseTaxeDeLuxe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E5C81A1B5752003C385F /* CaseTaxeDeLuxe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +52,12 @@
 		3E4CACB41A1230F90019FBD4 /* Monopoly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Monopoly.m; sourceTree = "<group>"; };
 		3E4CACB61A1231080019FBD4 /* Plateau.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plateau.h; sourceTree = "<group>"; };
 		3E4CACB71A1231080019FBD4 /* Plateau.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plateau.m; sourceTree = "<group>"; };
+		7253E5C31A1B5752003C385F /* CaseDepart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseDepart.h; sourceTree = "<group>"; };
+		7253E5C41A1B5752003C385F /* CaseDepart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseDepart.m; sourceTree = "<group>"; };
+		7253E5C51A1B5752003C385F /* CaseImpot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseImpot.h; sourceTree = "<group>"; };
+		7253E5C61A1B5752003C385F /* CaseImpot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseImpot.m; sourceTree = "<group>"; };
+		7253E5C71A1B5752003C385F /* CaseTaxeDeLuxe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaseTaxeDeLuxe.h; sourceTree = "<group>"; };
+		7253E5C81A1B5752003C385F /* CaseTaxeDeLuxe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaseTaxeDeLuxe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +107,12 @@
 				3E4CACA81A1227390019FBD4 /* Joueur.m */,
 				3E4CACAA1A1230960019FBD4 /* Case.h */,
 				3E4CACAB1A1230960019FBD4 /* Case.m */,
+				7253E5C31A1B5752003C385F /* CaseDepart.h */,
+				7253E5C41A1B5752003C385F /* CaseDepart.m */,
+				7253E5C51A1B5752003C385F /* CaseImpot.h */,
+				7253E5C61A1B5752003C385F /* CaseImpot.m */,
+				7253E5C71A1B5752003C385F /* CaseTaxeDeLuxe.h */,
+				7253E5C81A1B5752003C385F /* CaseTaxeDeLuxe.m */,
 				3E4CACAD1A1230BA0019FBD4 /* De.h */,
 				3E4CACAE1A1230BA0019FBD4 /* De.m */,
 				3E4CACB01A1230D30019FBD4 /* Gobelet.h */,
@@ -171,10 +186,13 @@
 			files = (
 				3E4CACB21A1230D30019FBD4 /* Gobelet.m in Sources */,
 				3E4CACAF1A1230BA0019FBD4 /* De.m in Sources */,
+				7253E5CB1A1B5752003C385F /* CaseTaxeDeLuxe.m in Sources */,
 				3E4CAC9D1A1226650019FBD4 /* main.m in Sources */,
+				7253E5C91A1B5752003C385F /* CaseDepart.m in Sources */,
 				3E4CACB81A1231080019FBD4 /* Plateau.m in Sources */,
 				3E4CACA91A1227390019FBD4 /* Joueur.m in Sources */,
 				3E4CACB51A1230F90019FBD4 /* Monopoly.m in Sources */,
+				7253E5CA1A1B5752003C385F /* CaseImpot.m in Sources */,
 				3E4CACAC1A1230960019FBD4 /* Case.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

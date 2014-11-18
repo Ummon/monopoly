@@ -13,28 +13,42 @@
 @interface Monopoly () {
     NSArray* _joueurs;
     Plateau* _plateau;
+    Gobelet* _gobelet;
+    int _nbTour;
 }
 @end
 
 @implementation Monopoly
--(Monopoly*)init :(int)nbJoueur {
-    self = [super init];
-
-    if (nbJoueur < 2 || nbJoueur > 8)
-        return 0; // exceptions?
-
-    _plateau = [[Plateau alloc]init];
-
-    Case* premiereCase = [_plateau getCaseDepart];
-
-    id joueurs[nbJoueur];
-    for (int i = 0; i < nbJoueur; i++)
-        joueurs[i] = [[Joueur alloc]initWithNomAndPionAndPosition:@"Joueur" :@"Pion" :premiereCase];
-    _joueurs = [NSArray arrayWithObjects:joueurs count:nbJoueur];
+-(Monopoly*)initWithNbJoueur :(int)nbJoueur :(int)tour {
+    if (self = [super init])
+    {
+        if (nbJoueur < 2 || nbJoueur > 8)
+            return nil; // exceptions?
+        
+        _plateau = [[Plateau alloc] init];
+        _gobelet = [[Gobelet alloc] init];
+        
+        Case* premiereCase = [_plateau getCaseDepart];
+        
+        id joueurs[nbJoueur];
+        for (int i = 0; i < nbJoueur; i++)
+            joueurs[i] = [[Joueur alloc]initWithNomAndPionAndPosition:@"Joueur" :@"Pion" :premiereCase];
+        _joueurs = [NSArray arrayWithObjects:joueurs count:nbJoueur];
+    }
 
     return self;
 }
+
 -(void)jouer {
-    // TODO.
+    for (int i = 0; i < _nbTour; i++)
+    {
+        for (Joueur* unJoueur in _joueurs)
+            [unJoueur aTonTour:_gobelet];
+    }
+}
+
+-(NSArray*) classement {
+    //[_joueurs sortUsingSelector:@selector(compare:)];
+    return _joueurs;
 }
 @end

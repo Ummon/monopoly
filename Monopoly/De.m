@@ -8,16 +8,13 @@
 
 #import "De.h"
 
-
-@interface De ()
--(int) valeurFace;
-@end
-
 @implementation De
 
--(void) lancer {
-
-
+-(int) lancer {
+    struct timeval timestruct;
+    gettimeofday(&timestruct, NULL);
+    srandom(timestruct.tv_usec);
+    return (int)((random() % 6) + 1);
 }
 
 @end

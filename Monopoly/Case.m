@@ -9,10 +9,22 @@
 #import "Case.h"
 
 @implementation Case
--(Case*)initWithNomAndSuivante :(NSString*)nom :(Case*)suivante {
-    self = [super init];
-    _nom = nom;
-    _suivante = suivante;
+
+-(Case*)initWithNomAndSuivante :(NSString*)nom
+{
+    if (self = [super init])
+    {
+        _nom = nom;
+    }
     return self;
 }
+
+-(void) passerSur:(Joueur*) j
+{
+}
+
+-(void) sArreterSur:(Joueur*) j
+{
+}
+
 @end
