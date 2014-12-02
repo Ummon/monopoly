@@ -14,8 +14,16 @@
 -(void)settingsDidFinish:(SettingsViewController*) settingsViewController;
 @end
 
+// UITableViewDelegate: Définit la structure de la table.
+// UITableViewDataSource: Définit l'apparence de la table.
 @interface SettingsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
-@property (readwrite, strong) NSMutableArray* playerNames;
+@property (strong, nonatomic) NSMutableArray* joueurs;
+//@property (weak, nonatomic) IBOutlet
+@property (weak, nonatomic) IBOutlet UITableView* tableView;
 @property (readwrite, strong) id delegate;
+
+//-(int) nbJoueur;
+-(int) nbTours;
+
 -(IBAction)finish;
 @end

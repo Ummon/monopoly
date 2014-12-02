@@ -31,8 +31,10 @@
         Case* premiereCase = [_plateau getCaseDepart];
         
         id joueurs[nbJoueur];
-        for (int i = 0; i < nbJoueur; i++)
-            joueurs[i] = [[Joueur alloc]initWithNomAndPionAndPosition:@"Joueur" :@"Pion" :premiereCase];
+        for (int i = 0; i < nbJoueur; i++) {
+            NSString* nom = [NSString stringWithFormat:@"Joueur %d",i];
+            joueurs[i] = [[Joueur alloc]initWithNomAndPionAndPosition:nom :@"Pion" :premiereCase];
+        }
         _joueurs = [NSArray arrayWithObjects:joueurs count:nbJoueur];
     }
 

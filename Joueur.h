@@ -12,7 +12,7 @@
 
 @interface Joueur : NSObject
 
-@property (nonatomic, readonly) NSString* nom; // Variable instance + setter + getter.
+@property (nonatomic) NSString* nom; // Variable instance + setter + getter.
 @property (nonatomic, strong, readonly) NSString* pion;
 @property (nonatomic, strong) Case* position;
 @property (nonatomic, assign) int solde;

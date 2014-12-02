@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self run];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,6 +34,8 @@
     [settingsViewController dismissViewControllerAnimated:TRUE completion:^(void){NSLog(@"finish");}];
 }
 
+// Appelé avant une transition vers une autre vue.
+// Dans notre cas on s'enregistre en tant que 'delegate'.
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     [[segue destinationViewController] setDelegate :self];
 }
@@ -42,10 +45,10 @@
     [self.monopoly jouer];
     
     NSArray* classement = [self.monopoly classement];
-    NSString* resultat= @"";
+    NSString* resultat = @"";
     
     for (Joueur* j in classement) {
-        resultat = [[NSString alloc] initWithFormat:@"%@\n%@-%d",resultat, j.nom, j.solde];
+        resultat = [[NSString alloc] initWithFormat:@"%@\n%@-%d", resultat, j.nom, j.solde];
     }
     self.txtClassement.text = resultat;
 }

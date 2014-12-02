@@ -24,6 +24,7 @@
 		7253E66C1A1B72A3003C385F /* Monopoly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6611A1B72A3003C385F /* Monopoly.m */; };
 		7253E66D1A1B72A3003C385F /* Plateau.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6631A1B72A3003C385F /* Plateau.m */; };
 		7253E6A61A24957B003C385F /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7253E6A51A24957B003C385F /* SettingsViewController.m */; };
+		72A39C3D1A2DE48C00014952 /* JoueurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A39C3C1A2DE48C00014952 /* JoueurViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		7253E6631A1B72A3003C385F /* Plateau.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Plateau.m; sourceTree = "<group>"; };
 		7253E6A41A24957B003C385F /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = ../SettingsViewController.h; sourceTree = "<group>"; };
 		7253E6A51A24957B003C385F /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = ../SettingsViewController.m; sourceTree = "<group>"; };
+		72A39C3B1A2DE48C00014952 /* JoueurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JoueurViewController.h; sourceTree = "<group>"; };
+		72A39C3C1A2DE48C00014952 /* JoueurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JoueurViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 			children = (
 				7253E6A41A24957B003C385F /* SettingsViewController.h */,
 				7253E6A51A24957B003C385F /* SettingsViewController.m */,
+				72A39C3B1A2DE48C00014952 /* JoueurViewController.h */,
+				72A39C3C1A2DE48C00014952 /* JoueurViewController.m */,
 				7253E60E1A1B7233003C385F /* AppDelegate.h */,
 				7253E60F1A1B7233003C385F /* AppDelegate.m */,
 				7253E6111A1B7233003C385F /* ViewController.h */,
@@ -287,6 +292,7 @@
 				7253E6101A1B7233003C385F /* AppDelegate.m in Sources */,
 				7253E6A61A24957B003C385F /* SettingsViewController.m in Sources */,
 				7253E6671A1B72A3003C385F /* CaseTaxeDeLuxe.m in Sources */,
+				72A39C3D1A2DE48C00014952 /* JoueurViewController.m in Sources */,
 				7253E6651A1B72A3003C385F /* CaseDepart.m in Sources */,
 				7253E66C1A1B72A3003C385F /* Monopoly.m in Sources */,
 				7253E60D1A1B7233003C385F /* main.m in Sources */,
