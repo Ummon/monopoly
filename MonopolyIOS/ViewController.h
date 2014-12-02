@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "Monopoly.h"
+#import "SettingsViewController.h"
 
+@interface ViewController : UIViewController <SettingsViewControllerDelegate>
+
+@property(nonatomic,strong) Monopoly* monopoly;
+@property(weak) IBOutlet UITextView* txtClassement;
+
+-(void) run;
 
 @end
 
